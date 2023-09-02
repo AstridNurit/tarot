@@ -372,6 +372,14 @@ footer{
     .hero-inferior-imagen{
         max-width: 600px;
     }
+    .hero-principal h2{
+        font-size: 0.1rem;
+        
+    }
+
+    .seccion-texto{
+        font-size: 0.8rem;
+    }
 }
 
 @media screen and (max-width:400px){
@@ -391,10 +399,20 @@ footer{
     }
 
     .testimonio-texto{
-        font-size: 18px;
+        font-size: 10px;
     }
 
     .derechos-de-autor{
-        font-size: 8px;
+        font-size: 5px;
     }
+
+    .testimonio-info .cliente{
+        font-size: 0.8rem;
+    }
+    
+    .testimonio.info .cargo{
+        font-size: 0.5rem;
+        
+    }
+
 }
